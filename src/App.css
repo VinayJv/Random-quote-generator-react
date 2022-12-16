@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;1,200;1,400&display=swap');
+:root {
+  --color1: #3f3b6c;
+  --color2: #624f82;
+  --color3: rgb(17,23,47,80%);
+  --color4: #9f73ab;
+}
+body{
+  display:flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://wallpaperaccess.com/download/cartoon-night-sky-774714);
+  background-size: cover;
+}
+
+
+#quote-box {
+  max-width: 50vw;
+  max-height: 100vh;
+  padding: .7rem 1rem 1rem 1rem;
+  border: .5rem solid rgb(255,255,255,6%);
+  border-radius: .2rem;
+  background-color: var(--color3);
+  box-shadow: 5px 6px 10px black;
+}
+#text {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.8rem;
+  color: var(--color4);
+  text-align:center;
+}
+#author{
+  text-align: end;
+  color: var(--color4);
+  font-style: italic;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.2rem;
+}
+#quotation {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+button {
+  border: none;
+  border-radius: .2rem;
+  background-color: var(--color4);
+  color: white;
+  float:right;
+  font-weight: bold;
+  padding: .94rem .7rem .94rem .7rem;
+}
+a>img {
+  padding-right:1rem;
+}
+a>img:hover{
+  cursor: pointer;
+  filter: saturate(160%);
+}
+button:hover{
+  cursor: pointer;
+  filter: saturate(160%);
+}
